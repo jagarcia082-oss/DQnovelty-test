@@ -1,1 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | DQNovlety Construction</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <div class="logo">DQ</div>
+        <div>DQNovlety Construction<small>Restoration • Rebuild • Renovations • School Interiors • Miami, FL</small></div>
+      </a>
+      <nav class="links">
+        <a href="services.html">Services</a>
+        <a href="school.html">School Work</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="cta" href="contact.html">Request a Site Walk →</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="badge">📍 Miami, Florida • Quotes + Site Walkthroughs</div>
+    <h1>Request a quote / site walk</h1>
+    <p class="sub">Send scope details, location, and timeline. We’ll respond with next steps.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid2">
+      <div class="panel">
+        <h2 style="margin-top:0">Contact</h2>
+        <p class="lead" style="margin-bottom:0">
+          <b>Phone:</b> (add)<br>
+          <b>Email:</b> (add)<br>
+          <b>Service Area:</b> Miami-Dade & South Florida (school-focused across Florida)
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2 style="margin-top:0">Project Request Form</h2>
+        <form onsubmit="event.preventDefault(); alert('Connect this form to Formspree/Netlify Forms to receive messages.');">
+          <label>Name</label>
+          <input required placeholder="Full name">
+          <label>Organization / School</label>
+          <input placeholder="School / District / GC / Facility">
+          <label>Email</label>
+          <input required type="email" placeholder="name@example.com">
+          <label>Project Type</label>
+          <input placeholder="Restoration / Rebuild / Renovations / School Work">
+          <label>Details</label>
+          <textarea placeholder="Scope, address/city, timeline (summer/holiday?), photos/plans"></textarea>
+          <button class="btn btnPrimary" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center;">
+    <div>© <span id="year"></span> DQNovlety Construction • Miami, Florida</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;">
+      <a href="services.html">Services</a>
+      <a href="school.html">School Work</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>
 
